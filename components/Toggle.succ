@@ -1,0 +1,20 @@
+Toggle:
+    column: "ToggleGates"
+    prefab:
+        blocks:
+            - Standard
+
+        inputs:
+            -
+                position: (0, 1, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+                startOn: true
+    logicCode: ToggleGates.Toggle_Gate
+    placingRules:
+        gridPlacingDimensions: (1, 2)
+
+
+
